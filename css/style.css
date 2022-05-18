@@ -1,0 +1,870 @@
+/* Fonts Start */
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/OpenSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: OpenSansBold;
+    src: url('../fonts/OpenSans-Bold.ttf');
+}
+
+@font-face{
+    font-family: OpenSansSemiBold;
+    src: url('../fonts/OpenSans-SemiBold.ttf');
+}
+/* Fonts End */
+
+
+/* ***** Header Container Start ***** */
+#headerback{
+    min-height: 550px;
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+/* *** Navigation Container Start *** */
+#navcontainer{
+    padding-top: 42px;
+}
+
+#navtop{
+    background-color: transparent;
+    border: none;
+    padding-left: 50px;
+}
+
+#navigation ul li a{
+    padding: 5px 15px 0;
+    font-family: OpenSans;
+    font-size: 15.4px;
+    color: white;
+    letter-spacing: 1.5px;
+    transition: .8s ease;
+}
+
+#navigation ul li a:hover{
+    color: #ef664d;
+}
+
+#navigation ul li a.active{
+    font-family: OpenSansBold;
+    color: #ef664d;
+}
+/* *** Navigation Container End *** */
+
+
+/* *** Carousel Container Start *** */
+#carouselcontainer{
+    margin-top: 100px;
+}
+
+#myCarousel h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33.6px;
+    color: white;
+}
+
+#myCarousel h2 span{
+    color: #ef664d;
+    font-weight: 900;
+}
+
+#myCarousel{
+    position: relative;
+}
+
+#myCarousel ol.carousel-indicators{
+    position: absolute;
+    bottom: -120px;
+}
+
+#myCarousel ol li{
+    width: 15px;
+    height: 15px;
+    border: 3px solid #CCCECE;
+}
+
+#myCarousel ol li.active{
+    background-color: #ef664d;
+    border: 3px solid #ef664d;
+}
+
+#myCarousel a.left.carousel-control i{
+    font-size: 60px;
+    position: absolute;
+    left: 0;
+    top: 65px;
+    color: #aeb0b7;
+}
+
+#myCarousel a.right.carousel-control i{
+    font-size: 60px;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    color: #aeb0b7;
+}
+
+a.left.carousel-control{
+    opacity: 1;
+}
+
+a.right.carousel-control{
+    opacity: 1;
+}
+
+a.left.carousel-control:hover{
+    color: #aeb0b7;
+}
+
+a.right.carousel-control:hover{
+    color: #aeb0b7;
+}
+
+
+/* *** Carousel Container End *** */
+
+/* ***** Header Container End ***** */
+
+
+/* ***** About Container Start ***** */
+#aboutcontainer{
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+#aboutcontainer h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #2a404e
+}
+
+/* Image Column Start */
+#imagecolumn img{
+    border: 2px solid #ef664d;
+    border-radius: 103px;
+}
+/* Image Column End */
+
+/* Text Column Start */
+#abouttextcolumn{
+    padding-top: 30px;
+}
+
+#abouttextcolumn p{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #7e7e7e;
+    line-height: 1.5em;
+}
+/* Text Column End */
+
+
+/* *** Progress Bar Row Start *** */
+#progressrow{
+    padding: 40px 0;
+}
+
+.progresstitle{
+    width: 75%;
+}
+
+.progresstitle p{
+    font-family: OpenSans;
+    font-weight: bold;
+    font-size: 17px;
+    color: #2a404e;
+}
+
+.progresstitle span{
+    float:right;
+}
+/* *** Progress Bar Row End *** */
+
+/* *** Bottom Arrow Start *** */
+#bottomarrowbutton a{
+    width: 40px;  
+    padding: 0;
+    background-color: transparent;
+    border: none;
+}
+/* *** Bottom Arrow End *** */
+
+/* ***** About Container End ***** */
+
+
+/* ***** Works Background Container Start ***** */
+#worksback{
+    background-color: #2e3e4e;
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+/* *** Works Container Start *** */
+#workscontainer h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #ef664d;
+}
+
+#workscontainer p{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #fefefe;
+    padding: 25px 0;
+    line-height: 1.5em;
+}
+/* *** Works Container End *** */
+
+/* *** Dynamic Tabs Start *** */
+
+/* Nav List Start */
+#dynamictabscolumn ul{
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 18px 0;
+}
+
+#dynamictabscolumn ul li a{
+    padding: 7px 10px;
+    margin: 0 4px;
+    font-family: OpenSans;
+    font-size: 15.4px;
+    color: white;
+    border: none;
+    transition: .5s ease-in-out;
+}
+
+#dynamictabscolumn ul li.active a{
+    background-color: transparent;
+    border: none;
+    color: #ef664d;
+    cursor: pointer;
+}
+
+#dynamictabscolumn ul li a:hover{
+    background-color: transparent;
+    color: #ef664d;
+    border: none;
+}
+/* Nav List End */
+
+/* ** Tab Content Start ** */
+#dynamictabscolumn .tab-content{
+    background-image: url('../images/left.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 20px;
+}
+/* ** Tab Content End ** */
+
+/* All Item Start */
+#allitemsecondrow{
+    padding-top: 20px;
+}
+
+#all img{
+    position: relative;
+}
+
+#all span{
+    font-size: 31px;
+    color: #ef664d;
+    position: absolute;
+    top:0;
+    left: 48%;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+
+#all a:hover span{
+    position: absolute;
+    top: 46%;
+    opacity: 95%;
+}
+/* All Item End */
+
+/* Branding Start */
+#branding img{
+    position: relative;
+}
+
+#branding span{
+    font-size: 31px;
+    color: #ef664d;
+    position: absolute;
+    top:0;
+    left: 48%;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+
+#branding a:hover span{
+    position: absolute;
+    top: 46%;
+    opacity: 95%;
+}
+/* Branding End */
+
+/* Print Start */
+#print img{
+    position: relative;
+}
+
+#print span{
+    font-size: 31px;
+    color: #ef664d;
+    position: absolute;
+    top:0;
+    left: 48%;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+
+#print a:hover span{
+    position: absolute;
+    top: 46%;
+    opacity: 95%;
+}
+/* Print End */
+
+/* Web Design Start */
+#webdesign img{
+    position: relative;
+}
+
+#webdesign span{
+    font-size: 31px;
+    color: #ef664d;
+    position: absolute;
+    top:0;
+    left: 48%;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+
+#webdesign a:hover span{
+    position: absolute;
+    top: 46%;
+    opacity: 95%;
+}
+/* Web Design End */
+
+/* Photography Start */
+#photography img{
+    position: relative;
+}
+
+#photography span{
+    font-size: 31px;
+    color: #ef664d;
+    position: absolute;
+    top:0;
+    left: 48%;
+    opacity: 0%;
+    transition: .5s ease-in;
+}
+
+#photography a:hover span{
+    position: absolute;
+    top: 46%;
+    opacity: 95%;
+}
+/* Photography End */
+
+/* *** Dynamic Tabs End *** */
+
+/* *** Bottom Arrow Start *** */
+#bottomarrowbutton2 a{
+    width: 40px;  
+    padding: 0;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+}
+/* *** Bottom Arrow End *** */
+
+/* ***** Works Background Container End ***** */
+
+
+/* ***** Services Container Start ***** */
+#servicescontainer{
+    padding-top: 42px;
+    padding-bottom: 42px;
+}
+
+#servicescontainer h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #2a404e;
+}
+
+#servicescontainer p{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #7e7e7e;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.5em;
+}
+
+/* *** Services Row Start *** */
+#servicesrow h3{
+    font-family: OpenSans;
+    font-size: 18.2px;
+    color: #2a404e;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#servicesrow p{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #7e7e7e;
+    text-align: center;
+    padding: 0 22px;
+    line-height: 1.3em;
+}
+
+/* Icon Div Start */
+#servicesrow .iconcircleback{
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    background-color: #ef664d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#servicesrow .iconcircleback span{
+    font-size: 60px;
+    color: white;
+}
+/* Icon Div End */
+
+#servicesrow .col-sm-4{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* *** Services Row End *** */
+
+/* *** Bottom Arrow Start *** */
+#bottomarrowbutton3 a{
+    width: 40px;  
+    padding: 0;
+    margin-top: 20px;
+    background-color: transparent;
+    border: none;
+}
+/* *** Bottom Arrow End *** */
+
+/* ***** Services Container End ***** */
+
+
+/* ***** Contact Background Container Start ***** */
+#contactback{
+    padding-top:40px;
+    padding-bottom: 40px;
+    background-color: #2e3e4e;
+}
+
+#contactcontainer h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #ef664d;
+}
+
+#contactcontainer p{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #fefefe;
+    padding: 25px 0;
+    line-height: 1.5em;
+}
+
+/* *** Social Icons Row Start *** */
+#iconsrow{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#iconscolumn{
+    display: flex;
+    justify-content: center;
+}
+
+#iconscolumn a{
+    padding: 0 12px;
+}
+
+#iconscolumn a span{
+    color: white;
+    font-size: 22px;
+    transition: .8s ease-in;
+}
+
+#iconscolumn a span:hover{
+    transform: scale(1.5);
+    color: #e77c3e;
+}
+/* *** Social Icons Row End *** */
+
+/* Forms Start */
+#contactformsrow input{
+    width: 100%;
+    padding: 10px 3px;
+    margin-bottom: 28px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid#d5d6d7;
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #d5d6d7;
+}
+
+#contactformsrow input[type=submit]{
+    float: right;
+    border: none;
+    width: 50%;
+    text-align: right;
+    color: #ef664d;
+    padding-top: 20px;
+    transition: .5s ease-in;
+}
+
+#contactformsrow input[type=submit]:hover{
+    color: white;
+}
+
+#contactformsrow ::placeholder{
+    color: #d5d6d7;
+}
+/* Forms End */
+
+/* ***** Contact Background Container End ***** */
+
+
+/* ***** Footer Background Container Start ***** */
+#footerback{
+    padding-bottom: 40px;
+    background-color: #2e3e4e;
+}
+
+footer{
+    border-top: 1px solid#55626f;
+    padding-top: 40px;
+}
+
+/* Copyright Column Start */
+#copyright p{
+    font-family: OpenSans;
+    font-size: 17px;
+    color: #d5d6d7;
+}
+
+#copyright p a{
+    color: #ef664d;
+    transition: 1s ease-in;
+}
+
+#copyright p a:hover{
+    color: #fefefe;
+    text-decoration: underline;
+}
+/* Copyright Column End */
+
+/* ***** Footer Background Container End ***** */
+
+
+/* Scroll Up Button Start */
+#totop span{
+    position: fixed;
+    right: 20px;
+    bottom: 25px;
+    font-size: 60px;
+    color: #ef664d;
+    z-index: 999;
+}
+
+/* Scroll Up Button End */
+
+@media only screen and (max-width:580px){
+    /* ***** Header Start ***** */
+
+    /* Site Logo Start */
+    #logo{
+        display: flex;
+        justify-content: center;
+    }
+    /* Site Logo End */
+
+    /* Navigation Start */
+    #navtoggle .icon-bar{
+        border: 2px solid #ef664d;       
+    }
+
+    #navtop{
+        padding-left: 0;
+    }
+
+    #navheader{
+        border: none;
+        margin-top: 10px;
+    }
+
+    #navigation{
+        border: none;
+    }
+
+    #navigation ul li a{
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    /* Navigation End */
+
+
+    /* Carousel Start */
+    #carouselcontainer{
+        margin-top: 30px;
+    }
+    #myCarousel h2{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 16.8px;
+        color: white;
+    }
+
+    #myCarousel a.left.carousel-control i{
+        font-size: 60px;
+        position: absolute;
+        left: 0;
+        top: 40px;
+    }
+    
+    #myCarousel a.right.carousel-control i{
+        font-size: 60px;
+        position: absolute;
+        right: 0;
+        top: 40px;
+    }
+
+    #myCarousel ol.carousel-indicators{
+        position: absolute;
+        bottom: -65px;
+    }
+    /* Carousel End */
+
+    /* ***** Header End ***** */
+
+    /* ***** About Container Start ***** */
+    #aboutcontainer{
+        padding: 28px 30px;
+    }
+
+    #aboutcontainer h2{
+        font-size: 21px;
+    }
+
+    #aboutcontainer #imagecolumn{
+        width: 25%;
+        float: left;
+    }
+
+    #aboutcontainer #abouttextcolumn{
+        width: 75%;
+        float: left;
+        padding-top: 5px;
+    }
+
+    #abouttextcolumn p{
+        font-size: 14px;
+    }
+
+    #abouttextcolumn p:last-of-type{
+        display: none;
+    }
+
+    /* Progress Bar Row Start */
+    #progressrow{
+        padding: 25px 0;
+    }
+
+    #progressrow p{
+        font-size: 14px;
+    }
+    /* Progress Bar Row End */
+
+    /* ***** About Container End ***** */
+
+
+    /* ***** Works Container Start ***** */
+    #workscontainer h2{
+        font-size: 21px;
+    }
+
+    #workscontainer p{
+        font-size: 12.6px;
+        padding: 15px 0;
+        margin: 0;
+    }
+
+    /* *** Tab Content Start *** */
+    #dynamictabscolumn .tab-content{
+        padding: 10px 15px;
+    }
+
+    #dynamictabscolumn ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    #dynamictabscolumn ul li a{
+        font-size: 12px;
+        padding: 3px 7px;
+    }
+
+    /* All Item Start */
+    #all .col-sm-3{
+        width: 25%;
+        float: left;
+        padding: 0 8px;
+    }
+
+    #allitemsecondrow{
+        padding-top: 15px;
+    }
+    /* All Item Start */
+
+    /* Branding Start */
+    #branding .col-sm-3{
+        width: 25%;
+        float: left;
+        padding: 0 8px;
+    }
+    /* Branding End */
+
+    /* Print Start */
+    #print .col-sm-3{
+        width: 25%;
+        float: left;
+        padding: 0 8px;
+    }
+    /* Print End */
+
+    /* Web Design Start */
+    #webdesign .col-sm-3{
+        width: 25%;
+        float: left;
+        padding: 0 8px;
+    }
+    /* Web Design Start */
+
+    /* Photography Start */
+    #photography .col-sm-3{
+        width: 25%;
+        float: left;
+        padding: 0 8px;
+    }
+    /* Photography End */
+
+    /* *** Tab Content End *** */
+
+    /* ***** Works Container End ***** */
+
+
+    /* ***** Services Container Start ***** */
+    #servicescontainer h2{
+        font-size: 21px;
+    }
+    
+    #servicescontainer p{
+        font-size: 12.6px;
+    }
+
+    /* Services Row Start */
+    #servicesrow .col-sm-4{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    /* Services Row End */
+
+    /* ***** Services Container End ***** */
+
+
+    /* ***** Contact Container Start ***** */
+    #contactback{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #contactcontainer h2{
+        font-size: 21px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #contactcontainer p{
+        font-size: 12.6px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    /* Social Icons Column Start */
+    #iconscolumn a{
+        padding: 0 8px;
+    }
+
+    #iconscolumn a span{
+        font-size: 17px;
+    }
+    /* Social Icons Column End */
+
+
+    /* Forms Start */
+    #contactformsrow input{
+        width: 100%;
+        padding: 7px 3px;
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+
+    #contactformsrow input[type=submit]{
+        border: none;
+        width: 100%;
+        text-align: center;
+        color: #ef664d;
+        margin-bottom: 0;
+    }
+
+    #contactformsrow ::placeholder{
+        color: #d5d6d7;
+    }
+    /* Forms End */
+    
+    /* ***** Contact Container End ***** */
+
+
+    /* ***** Footer Background Container Start ***** */
+    #footerback{
+        padding-bottom: 20px;
+    }
+
+    footer{
+        padding-top: 20px;
+    }
+
+    #copyright p{
+        font-size: 13px;
+    }
+    /* ***** Footer Background Container End ***** */
+
+}
